@@ -1,0 +1,118 @@
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#album-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid #dcdcdc;
+  background-color: #f4f4f4;
+  padding: 5px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#album-view img {
+  max-width: 100%;
+}
+
+#track{
+  width: 500px;
+  height: 60px;
+  font-size: 40pt;
+  border-style: none;
+  border-bottom: 2px solid #cfe3ff;
+  outline: 0;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+#submit{
+  border-radius: 5px;
+  border-style: none;
+  background-color: #cfe3ff;
+  height: 60px;
+  width: 100px;
+  font-size: 15pt;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  margin-left: 5px;
+}
+
+#submit:hover{
+  background-color: #a1c1ee;
+}
+
+h2{
+  font-family: 'Comfortaa', cursive;
+  font-size: 16pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+header{
+  height: 400px;
+  background-image: url(spotify.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 50pt;
+}
+
+.botton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton a{
+  border-radius: 20px;
+  margin-top: 10px;
+  width: max-content;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15;
+  background-color: #cfe3ff;
+  font-family: 'Comfortaa', cursive;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.botton a:hover{
+  background-color: #a1c1ee;
+}
+
+.album, .album img{
+  border-radius: 20px;
+}
+
+.album .link{
+  text-decoration: none;
+  color: brown;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.album .link:hover{
+  color: black;
+}

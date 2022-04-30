@@ -1,0 +1,103 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+.choice-grid{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    display: flex;
+    flex-direction: column;
+    width: calc(32.5% - 22px);
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+div.selezionato{
+    background-color: #cfe3ff;
+}
+
+div.scartato{
+    opacity: 0.6;
+}
+
+#risultato{
+    width: calc(700px - 40px);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+#reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #cecece;
+    text-decoration: none;
+}
+
+#reset:hover{
+    background-color: #e0e0e0;
+  }
+
+@media (max-width: 700px){
+    article{
+        width: 95%;
+    }
+
+    header div span {
+        display: none;
+    }
+
+    #risultato{
+        width: calc(100% - 40px);
+        /*margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;*/
+    }
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 22px);
+    }
+}
+
+#search{
+    font-size: 15pt;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #cfe3ff;
+    text-align: center;
+}
+
+#bottone{
+    color: white;
+    text-decoration: none;
+}
+
+#bottone:hover{
+    color: #65D46E;
+}
+
+#gif{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#gif img{
+    width: 100%;
+}
